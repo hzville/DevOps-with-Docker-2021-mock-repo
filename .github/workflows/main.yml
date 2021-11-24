@@ -20,4 +20,4 @@ jobs:
           app_name: ${{ secrets.APP_NAME }}
           dockerfile_path: ''
           options: ''
-          formation: ''
+          formation: 'web'
