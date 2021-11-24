@@ -11,7 +11,7 @@ RUN apt install -y nodejs
 RUN apt install -y git
 RUN git clone https://github.com/hzville/DevOps-with-Docker-2021-mock-repo.git
 RUN mkdir web-app
-RUN cp -r DevOps-with-Docker-2021-mock-repo/index.html web-app/
+RUN cp -r DevOps-with-Docker-2021-mock-repo/web-app/index.html web-app/
 RUN rm -rf DevOps-with-Docker-2021-mock-repo
 RUN npm install -g serve
 
