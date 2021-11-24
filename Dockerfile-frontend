@@ -12,4 +12,6 @@ RUN apt install -y git
 RUN git clone https://github.com/hzville/DevOps-with-Docker-2021-mock-repo.git
 RUN npm install -g serve
 
-CMD serve web-app
+WORKDIR ./web-app
+
+CMD serve
